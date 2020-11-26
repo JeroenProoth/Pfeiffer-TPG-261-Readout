@@ -25,9 +25,7 @@ Python Script for TPG 261 Readout
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -35,15 +33,30 @@ Python Script for TPG 261 Readout
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Just a small script to readout two Pfeiffer TGP 261's. 
+Just a small script to read out two Pfeiffer TGP 261's. 
 As I couldn't get serial readout to work, I instead use the TGP control connector's 2 and 5 pin to readout a 0-10 VDC signal.
 These pints are connected to two Keithley Multimeters, which are then read out using RS232. Complete overkill, but it works.
 
 There is also a KEYSIGHT Agilent 53132A connected, which reads out a 6 MHz Quartz crystal via GPIB. The quartz crystal is driven by a MAXTEK-TM400.
 
+
+Readout is done every second, which in some cases generates a ton of data. Reduce_size.py allows you to reduce the file size of the gathered data depending on some error. 
+In some cases, you can reduce your filesize by a factor of 100 without losing any significant data. It's very specific to my measurements, but I added it for completeness.
+
 ### Built With
 * [Python 3.6.4](https://www.python.org/downloads/release/python-364/)
 
+
+## Getting Started
+
+You will need to install:
+* [pyvisa-py](https://pypi.org/project/PyVISA-py/)
+* [NI-VISA](https://www.ni.com/nl-be/support/downloads/drivers/download.ni-visa.html#346210)
+* [NI-488.2](https://www.ni.com/nl-be/support/downloads/drivers/download.ni-488-2.html#345631), if you intend to use GPIB communication.
+
+## Contact
+
+[![Issues][issues-shield]][issues-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
