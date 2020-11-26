@@ -35,7 +35,11 @@ Python Script for TPG 261 Readout
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Just a small script to readout two Pfeiffer TGP 261's. 
+As I couldn't get serial readout to work, I instead use the TGP control connector's 2 and 5 pin to readout a 0-10 VDC signal.
+These pints are connected to two Keithley Multimeters, which are then read out using RS232. Complete overkill, but it works.
 
+There is also a KEYSIGHT Agilent 53132A connected, which reads out a 6 MHz Quartz crystal via GPIB. The quartz crystal is driven by a MAXTEK-TM400.
 
 ### Built With
 * [Python 3.6.4](https://www.python.org/downloads/release/python-364/)
