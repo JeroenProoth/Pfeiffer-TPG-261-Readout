@@ -35,12 +35,12 @@ Python Script for TPG 261 Readout
 
 Just a small script to read out two Pfeiffer TGP 261's. 
 As I couldn't get serial readout to work, I instead use the TGP control connector's 2 and 5 pin to readout a 0-10 VDC signal.
-These pints are connected to two Keithley Multimeters, which are then read out using RS232. Complete overkill, but it works.
+These pins are connected to two Keithley Multimeters, which are then read out using RS232. Complete overkill, but it works.
 
 There is also a KEYSIGHT Agilent 53132A connected, which reads out a 6 MHz Quartz crystal via GPIB. The quartz crystal is driven by a MAXTEK-TM400.
 
 
-Readout is done every second, which in some cases generates a ton of data. Reduce_size.py allows you to reduce the file size of the gathered data depending on some error. 
+Readout is done every second, which in some cases generates a ton of data. [Reduce_size.py](https://github.com/JeroenProoth/Pfeiffer-TPG-261-Readout/blob/main/reduce_size.py) allows you to reduce the file size of the gathered data depending on some error. 
 In some cases, you can reduce your filesize by a factor of 100 without losing any significant data. It's very specific to my measurements, but I added it for completeness.
 
 ### Built With
