@@ -1,6 +1,13 @@
 # Pfeiffer-TPG-261-Readout
 Python Script for TPG 261 Readout
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -25,6 +32,24 @@ Python Script for TPG 261 Readout
 </details>
 
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+
 
 ### Built With
-* [Python 3.6.4](https://python.com)
+* [Python 3.6.4](https://www.python.org/downloads/release/python-364/)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/JeroenProoth/Pfeiffer-TPG-261-Readout.svg?style=for-the-badge
+[contributors-url]: https://github.com/JeroenProoth/Pfeiffer-TPG-261-Readout/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/JeroenProoth/Pfeiffer-TPG-261-Readout.svg?style=for-the-badge
+[forks-url]: https://github.com/JeroenProoth/Pfeiffer-TPG-261-Readout/network/members
+[stars-shield]: https://img.shields.io/github/stars/JeroenProoth/Pfeiffer-TPG-261-Readout.svg?style=for-the-badge
+[stars-url]: https://github.com/JeroenProoth/Pfeiffer-TPG-261-Readout/stargazers
+[issues-shield]: https://img.shields.io/github/issues/JeroenProoth/Pfeiffer-TPG-261-Readout.svg?style=for-the-badge
+[issues-url]: https://github.com/JeroenProoth/Pfeiffer-TPG-261-Readout/issues
+
+
